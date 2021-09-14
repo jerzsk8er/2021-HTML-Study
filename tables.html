@@ -7,15 +7,20 @@
   <body>
     <!--
     Tables are meant for storing data.
+    Tags:
     <table> -> Defines a table.
     <tr> -> Defines a row.
     <th> -> Defines a header Cell.
     <td> -> Defines a standard data cell.
 
+    Attributes:
+    border -> Defines standard table border
+    colspan -> Merge cells horizaontally.
+    rowspan -> Merge cells vertically.
       -->
     <table border="1">
       <tr>
-        <th>Charizard Sort Of Stats</th>
+        <th colspan="5">Charizard Sort Of Stats</th>
       </tr>
       <tr>
         <th>Stat</th>
@@ -25,7 +30,14 @@
         <th></th>
       </tr>
       <tr>
-        <td>HP</td>
+        <td rowspan="2">HP</td>
+        <td>78</td>
+        <td>266</td>
+        <td>360</td>
+        <td></td>
+      </tr>
+      <tr>
+
         <td>78</td>
         <td>266</td>
         <td>360</td>
@@ -42,15 +54,8 @@
         <td>HP</td>
         <td>78</td>
         <td>266</td>
-        <td>360</td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>HP</td>
-        <td>78</td>
-        <td>266</td>
-        <td>360</td>
-        <td>New Cell!!!!!</td>
+        <td colspan="2">360</td>
+
       </tr>
     </table>
   </body>
