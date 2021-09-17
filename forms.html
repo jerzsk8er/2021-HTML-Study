@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Form Example</title>
+  </head>
+  <body>
+    <!--
+    <form method="" action=""> -> Declares the type of form and where it goes
+    <input type="" name=""> -> defines an input of the type listed and name listed
+                              Types of Inputs: text, radio, checkbox
+                  value="" -> required for checkboxes and radio buttons
+                              name controls what radio buttons and checkboxes affect
+      -->
+    <form method="get" action="temp.html">
+      <label for="name">Name</label>
+      <input type="text" name="name"><br/>
+
+      <label for="grade">Grade 12</label>
+      <input type="radio" name="grade" value="12"><br />
+
+      <label for="grade">Grade 11</label>
+      <input type="radio" name="grade" value="11"><br />
+
+      <label for="grade">Grade 10</label>
+      <input type="radio" name="grade" value="10"><br />
+
+      <label for="grade">Grade 9</label>
+      <input type="radio" name="grade" value="9"><br />
+
+      <label for="class">Cybersecurity</label>
+      <input type="checkbox" name="class" value="Cybersecurity"><br />
+
+      <label for="class">Web Design</label>
+      <input type="checkbox" name="class" value="WebDesign"><br />
+
+      <label for="class">AP CSP</label>
+      <input type="checkbox" name="class" value="APCSP"><br />
+
+      <textarea rows="10" cols="52">The starter data</textarea><br />
+      <input type="submit" value="Hm... Maybe this wasn't a great choice....">
+
+    </form>
+  </body>
+</html>
