@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/2021-HTML-Study.iml" filepath="$PROJECT_DIR$/.idea/2021-HTML-Study.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../tlaRedesign/.idea/tlaRedesign.iml" filepath="$PROJECT_DIR$/../tlaRedesign/.idea/tlaRedesign.iml" />
     </modules>
   </component>
 </project>
