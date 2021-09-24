@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/2021-HTML-Study.iml" filepath="$PROJECT_DIR$/.idea/2021-HTML-Study.iml" />
       <module fileurl="file://$PROJECT_DIR$/../tlaRedesign/.idea/tlaRedesign.iml" filepath="$PROJECT_DIR$/../tlaRedesign/.idea/tlaRedesign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../websitetesting/.idea/websitetesting.iml" filepath="$PROJECT_DIR$/../websitetesting/.idea/websitetesting.iml" />
     </modules>
   </component>
 </project>
