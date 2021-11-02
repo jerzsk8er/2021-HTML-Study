@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>ExampleTemplate</title>
+    <title>Example Template - 3 Columns</title>
     <style>
         body {
-            background-color: darkcyan;
+            background-color: yellow;
         }
 
         .container {
@@ -18,6 +18,7 @@
         #header {
             width: 100%;
             height: 100px;
+            /*background-color: cyan;*/
             text-align: center;
             vertical-align: middle;
             font-size: 75px;
@@ -50,36 +51,38 @@
         }
 
         .active {
-            background-color: darkblue;
+            background-color: #04AA6D;
         }
 
         #content {
             float: left;
-            width: 33%;
+            width: 75%;
             padding-top: 10px;
             padding-left: 10px;
             padding-right: 10px;
         }
-        #bikes {
-            width: 33%;
-            padding-top: 10px;
-            padding-left: 10px;
-            padding-right: 10px;
+        div.middle{
+            text-align: center;
+
+        }
+        .row:after{
+            content: "";
+            display: table;
+            clear: both;
         }
 
         #sidebar {
-            height: 200px;
-            width: 33%;
-            float: right;
+
         }
         #footer{
-            text-align: center;
+            text-align; center;
             padding: 20px;
-            font-size: 18px;
-            background-color: darkturquoise;
+            font-size: 25px;
+            background-color: blue;
+            color: white;
         }
         div#footer a{
-            color: darkblue;
+            color: white;
             text-decoration: none;
         }
     </style>
@@ -88,7 +91,7 @@
 <div class="container">
     <div class="row">
         <div id="header">
-            HEADER WOOOO
+            Basic 3 Column CSS Template
         </div>
     </div>
     <div class="row">
@@ -100,24 +103,30 @@
             <li style="float:right;"><a href="#">Contact</a></li>
         </ul>
     </div>
+    <div class="middle">
+
+    </div>
     <div class="row">
         <div id="content">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
             dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
             ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-            nulla pariatur.2181885
+            nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+            anim id est laborum.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+            nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+            anim id est laborum.
+
         </div>
         <div id="sidebar">
             Sidebar <br/>Ads<br/>Ads
         </div>
-        <div id="bikes">
-            BUY MY BIKES
-        </div>
     </div>
     <div class="row">
         <div id="footer">
-            Copyright 2021 Bobby Joe 2021 Bobby at Gmail.com
-            <a href="mailto:drew.fischer@vtsd.com">gamill.comstyffkjdh</a>
+            Copyright 2021 | Web Design | <a href="mailto:domenic.papaleo@yahoo.com">Contact</a>
         </div>
     </div>
 
